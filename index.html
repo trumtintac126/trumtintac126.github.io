@@ -9,18 +9,22 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,300,700,800" rel="stylesheet"
         media="screen">
     <link href="./css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="./css/font-awesome.css" rel="stylesheet" type="text/css" />
+    <link href="./css/font-awesome.min.css" rel="stylesheet" type="text/css" />
     <link href="./css/style.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <!-- <link href="color/default.css" rel="stylesheet" media="screen"> -->
-
+    <script src="./js/jquery.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
 </head>
 
 <body>
 
     <!--Navigation-->
-    <nav class="navbar navbar-defalut" role="navigation">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header">
-                <a class="navbar-brand" href="#">Home</a>
+                <a class="navbar-brand" href="#">TRANNING</a>
             </div>
             <div class="navigation collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav">
@@ -35,20 +39,176 @@
         </div>
     </nav>
     <!--Intro-->
-    <section>
+    <section id="intro">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
 
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="./img/intro/1.jpg" alt="Los Angeles">
+                    <div class="carousel-container">
+                        <div class="carousel-content">
+                            <h2 class="animated fadeInDown">Creativity and technology</span></h2>
+                            <p class="animated fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut
+                                et
+                                est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea
+                                voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi
+                                architecto.</p>
+                            <a href="#" class="btn-get-started animated fadeInUp">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="./img/intro/2.jpg" alt="Chicago">
+                    <div class="carousel-container">
+                        <div class="carousel-content">
+                            <h2 class="animated fadeInDown">Creativity and technology</span></h2>
+                            <p class="animated fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut
+                                et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique
+                                ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore
+                                modi architecto.</p>
+                            <a href="#" class="btn-get-started animated fadeInUp">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="./img/intro/3.jpg" alt="New York">
+                    <div class="carousel-container">
+                        <div class="carousel-content">
+                            <h2 class="animated fadeInDown">Sequi ea ut et est quaerat</span></h2>
+                            <p class="animated fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut
+                                et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique
+                                ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore
+                                modi architecto.</p>
+                            <a href="#" class="btn-get-started animated fadeInUp">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- <a class="left carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-left" ></span>
+            <span class="sr-only">Next</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+        </a> -->
+        </div>
     </section>
     <!--AboutUs-->
-    <section>
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8">
+                    <div class="heading">
+                        <h2>About us</h2>
+                        <div class="heading-line"></div>
+                        <p>
+                            We’ve been building unique digital products, platforms, and experiences for the past 6
+                            years.
+                        </p>
+                    </div>
+                </div>
 
+
+            </div>
+            <div class="row">
+                <div class="col-md-6 about-img">
+                    <img src="./img/about-img.jpg" alt="About">
+                </div>
+                <div class="col-md-6 content">
+                    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elite storium paralate</h2>
+                    <h3>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                        anim
+                        id est
+                        laborum.</h3>
+                    <p>
+                        Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                        reprehenderit
+                        in
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                        cupidatat
+                        non
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum Libero justo
+                        laoreet
+                        sit amet
+                        cursus sit amet dictum sit. Commodo sed egestas egestas fringilla phasellus faucibus
+                        scelerisque eleifend
+                        donec Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                        mollit
+                        anim id est
+                        laborum.
+                    </p>
+                </div>
+            </div>
     </section>
     <!--Image1-->
-    <section>
-
+    <section id="image1" class="home-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="color">
+                        <h2>
+                            Details are the key for perfection
+                        </h2>
+                        <p>
+                            We mix all detailed things together
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
     <!--Service-->
-    <section>
+    <section id="serivice" class="about-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8">
+                    <div class="heading">
+                        <h2>Services</h2>
+                        <div class="heading-line"></div>
+                        <p>
+                            We’ve been building unique digital products, platforms, and experiences for the past 6
+                            years.
+                        </p>
+                    </div>
+                </div>
 
+
+            </div>
+            <div class="w3-content" style="max-width:1200px">
+                <img class="mySlides" src="./img/screenshots/1.png" style="width:100%;display:none;">
+                <img class="mySlides" src="./img/screenshots/2.png" style="width:100%">
+                <img class="mySlides" src="./img/screenshots/3.png" style="width:100%;display:none">
+
+                <div class="w3-row-padding w3-section">
+                    <div class="w3-col s4">
+                        <img class="service w3-opacity w3-hover-opacity-off" src="./img/screenshots/1.png" style="width:100%;cursor:pointer"
+                            onclick="currentDiv(1)">
+                    </div>
+                    <div class="w3-col s4">
+                        <img class="service w3-opacity w3-hover-opacity-off" src="./img/screenshots/2.png" style="width:100%;cursor:pointer"
+                            onclick="currentDiv(2)">
+                    </div>
+                    <div class="w3-col s4">
+                        <img class="service w3-opacity w3-hover-opacity-off" src="./img/screenshots/3.png" style="width:100%;cursor:pointer"
+                            onclick="currentDiv(3)">
+                    </div>
+                </div>
+            </div>
     </section>
     <!--Work-->
     <section>
@@ -62,17 +222,158 @@
     <section>
 
     </section>
-    <!--Contact-->
-    <section>
+    <!--Contact-form-->
+    <section id="contact-form" class="about-section">
+        <dic class="container">
+            <div class="row">
+                <div class="col-md-offset-2 col-md-8">
+                    <!--đánh dấu 2 cột đầu không dùng-->
+                    <div class="section-heading">
+                        <h2>Contact us</h2>
+                        <div class="heading-line"></div>
+                        <p>If you have any question or just want to say 'hello' to Alstar web studio please fill out
+                            form below and
+                            we will be get in touch with you within 24 hours. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-offset-2 col-md-8">
+                    <div id="message">Your message has been sent. Thank you!</div>
+                </div>
+                <div id="err">
 
+                </div>
+                <form action="" method="post" class="" role="form">
+                    <div class="col-md-offset-2 col-md-8">
+                        <div class="form-group">
+                            <input type="text" name="name" class="form-control" id="name" placeholder="Your name">
+                            <div class="validation"></div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-offset-2 col-md-8">
+                        <div class="form-group">
+                            <input type="email" name="email" class="form-control" id="email" placeholder="Your email">
+                            <div class="validation"></div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-offset-2 col-md-8">
+                        <div class="form-group">
+                            <input type="text" name="subject" class="form-control" id="name" placeholder="Subject">
+                            <div class="validation"></div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-offset-2 col-md-8">
+                        <div class="form-group">
+                            <textarea name="message" class="form-control" rows="5" required="required" placeholder="Message"></textarea>
+                            <div class="validation"></div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-offset-2 col-md-8">
+                            <button type="submit" class="btn btn-theme">Send message</button>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+        </dic>
+
+    </section>
+    <!--Contact us-->
+    <section id="contactus" class="about-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <i class="glyphicon glyphicon-home"></i>
+                    <h5>Main office</h5>
+                    <p>134 2/9 Street ,<br />DaNang VietNam</p>
+                </div>
+
+
+                <div class="col-md-4">
+                    <i class="glyphicon glyphicon-earphone"></i>
+                    <h5>Call</h5>
+                    <p>+84905050505<br />+84905090909</p>
+                </div>
+                <div class="col-md-4">
+                    <i class="glyphicon glyphicon-send"></i>
+                    <h5>Email us</h5>
+                    <p>hello@alstarstudio.com<br />sales@alstarstudio.com</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <h5>We're on social networks</h5>
+                    <ul class="contactus-nextwork">
+                        <li>
+                            <a href="#">
+                                <span class="fa-stack fa-2x">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li><a href="#">
+                                <span class="fa-stack fa-2x">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-dribbble fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a></li>
+                        <li><a href="#">
+                                <span class="fa-stack fa-2x">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a></li>
+                        <li><a href="#">
+                                <span class="fa-stack fa-2x">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-pinterest fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </section>
     <!--Footer-->
     <footer>
-
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>Copyright &copy; Tranning. All rights reserved.</p>
+                </div>
+                <div>Designed by <a href="#">NMT</a></div>
+            </div>
+        </div>
     </footer>
     <!--Js-->
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+
 </body>
+<script>
+    function currentDiv(n) {
+        showDivs(slideIndex = n);
+    }
+
+    function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("service");
+        if (n > x.length) { slideIndex = 1 }
+        if (n < 1) { slideIndex = x.length }
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
+        }
+        x[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " w3-opacity-off";
+    }
+</script>
 
 </html>
