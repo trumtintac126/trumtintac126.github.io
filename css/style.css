@@ -163,9 +163,19 @@ nav.navbar{
 #image2{
     background-image: url(../img/parallax/2.jpg);
 }
+.image2_item{
+    list-style: none;
+}
+.image2_item li{
+display: inline;
+}
 .home-section{
     width: 100%;
     padding: 150px 0px 150px 0px;
+}
+/*team*/
+.team img{
+    margin-bottom: 30px;
 }
 /*contact-form*/
 .section-heading .heading-line{
@@ -222,14 +232,28 @@ nav.navbar{
 .fa-stack{
     color: #00c1c1;
 }
-#contact-form button{
+/*contact-form*/
+.btn-theme{
     color: white;
     background-color: #00c1c1;
 }
 .btn-theme:hover{
-    color: #999;
+    color:#999;
     border-color: #999;
-    background-color: #999;
+    background: transparent !important;
+}
+#contact-form{
+    background-color: rgb(248, 248, 248);
+}
+#contact-form button{
+    width: 100%;
+    border-radius: 0;
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: uppercase;    
+}
+#name:focus, #email:focus, #subject:focus, #message:focus{
+    border: 1px solid #00c1c1;
 }
 /*footer*/
 footer{
