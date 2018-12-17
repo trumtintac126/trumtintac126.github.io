@@ -27,7 +27,7 @@ nav.navbar{
 }
 .navbar-header a {
     color: white;
-    font-size: 50px;
+    font-size: 30px;;
 }
 .navbar-nav {
     float: right;
@@ -47,6 +47,10 @@ nav.navbar{
 .navbar-fixed-top {
     background-color:#00c1c1;
 }
+.navbar button {
+    display: none;
+    position: absolute;
+}
 /*heading*/
 .heading {
     margin-bottom: 50px;
@@ -65,6 +69,9 @@ nav.navbar{
     margin-bottom: 20px;
 }
 /*intro*/
+#myCarousel{
+    height: 100vh;
+}
 #intro .carousel-content {
     text-align: center;
 }
@@ -74,7 +81,13 @@ nav.navbar{
     font-size: 48px;
     font-weight: 700;
   }
-  
+/* .item-active 
+.carousel-inner {
+    height: 100vh;;
+}  */
+.carousel-inner> .item>img {
+    height: 100vh;
+}
 #intro p {
     width: 70%;
     -webkit-animation-delay: 0.4s;
@@ -113,10 +126,15 @@ nav.navbar{
     position: absolute;
     top: calc(50% - 15px); /*tinh do rong*/
 }
-#intro .carousel-control-next-icon,#intro .carousel-control-prev-icon {
+#intro .carousel-control-next-icon,
+#intro .carousel-control-prev-icon {
     background: none;
     font-size: 48px;
     line-height: 1;
+}
+/*Service*/
+.w3-content img {
+    width: 100%;
 }
 /*About*/
 #about .about-img {
@@ -199,9 +217,11 @@ nav.navbar{
     text-align: center;
 }
 /*contactus*/
-.glyphicon-home,.glyphicon-earphone,.glyphicon-send
+.glyphicon-home,
+.glyphicon-earphone,
+.glyphicon-send
 {
-    font-size: 4em;
+    font-size: 3.5em;
     color: #00c1c1;
 }
 #contactus {
@@ -241,7 +261,7 @@ nav.navbar{
 .btn-theme:hover {
     color:#999;
     border-color: #999;
-    background: transparent !important;
+    background: transparent !important; /*lấy màu nền gốc*/
 }
 #contact-form {
     background-color: rgb(248, 248, 248);
@@ -253,9 +273,46 @@ nav.navbar{
     font-weight: 500;
     text-transform: uppercase;    
 }
-#name:focus, #email:focus, #subject:focus, #message:focus {
+#name:focus, 
+#email:focus, 
+#subject:focus, 
+#message:focus {
     border: 1px solid #00c1c1;
 }
+/*Work*/
+#work {
+    background-color: rgb(248, 248, 248);
+}
+#work img {
+    padding-top: 10px;
+    width: 100%;
+}
+/*back to top*/
+#button_to_top{
+    display: inline-block;
+    background-color: #00c1c1;
+    /* width: 30px;
+    height: 40px; */
+    text-align: center;
+    border-radius: 2px;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    visibility: hidden;
+    line-height: 50px;
+    color: #fff;
+    font-size: 16px;
+    padding: 0px 12px 0px 12px;
+}
+#button_to_top.show {
+    opacity: 1;
+    visibility: visible;
+}
+#button_to_top:hover {
+    cursor: pointer;
+    background-color:#019090;
+}
+
 /*footer*/
 footer {
     background-color: #00c1c1;
