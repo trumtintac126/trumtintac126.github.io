@@ -35,3 +35,36 @@ btn.on('click', function (e) {
 });
 //-------Message--------//
 $('#sendMessage').hide();
+//---------Scroll to div------------//
+function scroll(item) {
+    var cls = '';
+    switch (item) {
+        case 0:
+            cls = '#about';
+            break;
+        case 1:
+            cls = '#serivice';
+            break;
+        case 2:
+            cls = '#work';
+            break;
+        case 3:
+            cls = '#team';
+            break;
+        case 4:
+            cls = '#contactus';
+            break;
+    }
+    cls && $('html,body').animate({
+        "scrollTop": $(cls).offset().top
+    },1000);
+}
+//-----------Menu_repomsive------------//
+$("body").click(function(event) {
+    if (event.target.id != "navbar" && event.target.id != 'toggle-button') {
+        $("#navbar").css("display","none");
+    }
+});
+$("#toggle-button").click(function() {
+     $("#navbar").attr("style","display: block !important");
+});
