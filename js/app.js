@@ -59,7 +59,7 @@ function scroll(item) {
         "scrollTop": $(cls).offset().top
     },1000);
 }
-//-----------Menu_repomsive------------//
+//-----------Menu_reponsive------------//
 $("body").click(function(event) {
     if (event.target.id != "navbar" && event.target.id != 'toggle-button') {
         $("#navbar").css("display","none");
