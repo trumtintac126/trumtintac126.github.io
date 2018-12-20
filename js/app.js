@@ -54,6 +54,8 @@ function scroll(item) {
         case 4:
             cls = '#contactus';
             break;
+        default :
+            break;
     }
     cls && $('html,body').animate({
         "scrollTop": $(cls).offset().top
