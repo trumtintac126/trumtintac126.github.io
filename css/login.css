@@ -107,6 +107,9 @@ a {
     color: #999999;
 
 }
+.text-center a {
+    text-decoration: none;
+}
 .fa-stack {
     color: #00c1c1;
 }
