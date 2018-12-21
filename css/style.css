@@ -43,7 +43,7 @@ nav.navbar{
     outline: 0ch;
     transition: all;
     background-color: aqua;
-    cursor: pointer; /*hien thi ban tay*/
+    cursor: pointer; 
 }
 .navbar-fixed-top {
     background-color:#00c1c1;
@@ -126,7 +126,7 @@ nav.navbar{
     display: flex;
     -webkit-align-items: center;
     align-items: center;
-    position: absolute; /*co dinh*/
+    position: absolute;
     bottom: 0;
     top: 0;
     left: 0;
@@ -174,7 +174,7 @@ nav.navbar{
 #intro .carousel-control-next {
     color: #fff;
     position: absolute;
-    top: calc(50% - 15px); /*tinh do rong*/
+    top: calc(50% - 15px); 
 }
 #intro .carousel-control-next-icon,
 #intro .carousel-control-prev-icon {
@@ -373,7 +373,7 @@ nav.navbar{
 .btn-theme:hover {
     color:#999;
     border-color: #999;
-    background: transparent !important; /*lấy màu nền gốc*/
+    background: transparent !important;
 }
 #contact-form {
     background-color: rgb(248, 248, 248);
@@ -406,8 +406,6 @@ nav.navbar{
 #button_to_top{
     display: inline-block;
     background-color: #00c1c1;
-    /* width: 30px;
-    height: 40px; */
     text-align: center;
     border-radius: 2px;
     position: fixed;
